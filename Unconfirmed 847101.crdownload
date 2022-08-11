@@ -1,0 +1,12 @@
+import statistics as stats
+l = [1,2,3,4,5]
+mean = stats.mean(l)
+median = stats.median(l)
+mode = stats.mode(l)
+sd = stats.stdev(l)
+var = stats.variance(l)
+print('The mean of the values are :',mean)
+print('The median of the values are :',median)
+print('The mode of the values are :',mode)
+print('The standard deviation of the values are :',sd)
+print('The variance of the values are :',var)
